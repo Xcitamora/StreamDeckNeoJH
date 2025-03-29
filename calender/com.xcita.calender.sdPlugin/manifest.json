@@ -1,0 +1,49 @@
+{
+	"UUID": "com.xcita.calender",
+	"Name": "Calender",
+	"Description": "iOS style Calender",
+	"Version": "0.1.0.0",
+	"Author": "Xcita",
+	"SDKVersion": 2,
+	"CodePath": "bin/plugin.js",
+	"Icon": "imgs/plugin/marketplace",
+	"Category": "Calender",
+	"CategoryIcon": "imgs/plugin/category-icon",
+
+	"Actions": [
+		{
+			"UUID": "com.xcita.calender.dateDisplay",
+			"Name": "Date Display",
+			"Tooltip": "Displays current date in iOS calendar style.",
+			"Icon": "imgs/actions/date/icon",
+			"Controllers": ["Keypad"],
+			"States": [
+				{
+					"Image": "imgs/actions/date/key",
+					"TitleAlignment": "middle",
+					"FontSize": "18"
+				}
+			]
+		}
+	],
+
+	"Software": {
+		"MinimumVersion": "6.4"
+	},
+
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	}
+}ㄴ

@@ -1,12 +1,12 @@
 import streamDeck, { LogLevel } from "@elgato/streamdeck";
 
-import { IncrementCounter } from "./actions/increment-counter";
+import { ShowCurrentDate } from "./actions/show-current-date";
 
-// We can enable "trace" logging so that all messages between the Stream Deck, and the plugin are recorded. When storing sensitive information
+// Enable verbose logging for debugging.
 streamDeck.logger.setLevel(LogLevel.TRACE);
 
-// Register the increment action.
-streamDeck.actions.registerAction(new IncrementCounter());
+// Register the date display action.
+streamDeck.actions.registerAction(new ShowCurrentDate());
 
-// Finally, connect to the Stream Deck.
+// Connect to the Stream Deck.
 streamDeck.connect();

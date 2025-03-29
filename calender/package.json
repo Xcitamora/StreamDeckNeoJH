@@ -1,7 +1,7 @@
 {
     "scripts": {
         "build": "rollup -c",
-        "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.cal.calender\""
+        "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.xcita.calender\""
     },
     "type": "module",
     "devDependencies": {
