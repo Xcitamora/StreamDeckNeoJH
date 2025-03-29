@@ -9,7 +9,7 @@ const isWatching = !!process.env.ROLLUP_WATCH;
 const sdPlugin = "com.xcita.date.sdPlugin";
 
 /**
- * @type {import('rollup').RollupOptions}
+ * @type {import('rollup').RollupOptions} ㅅㄷㄴ
  */
 const config = {
 	input: "src/plugin.ts",
